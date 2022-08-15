@@ -1,0 +1,128 @@
+body {
+    background-color: #5abbcd;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.top {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin: 100px;
+}
+.first {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.button {
+    width: 50%;
+    height: 100px;
+    background-color: orange;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+.button a {
+    text-decoration: none;
+    color: white;
+}
+.button1 {
+    box-shadow: -1px 1px #ffbf00, -2px 2px #ffbf00, -3px 3px #ffbf00, -4px 4px #ffbf00, -5px 5px #ffbf00, -6px 6px #ffbf00, -7px 7px #ffbf00;
+}
+  
+.amount {
+    color: #c0edf7;
+    text-align: center;
+    margin: 100px;
+    font-size: 25px;
+}
+.description img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.normal {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin: 5px;
+}
+.normal p {
+    margin-left: 10px;
+}
+.small {
+    color: #c0edf7;
+}
+.link {
+    text-align: center;
+}
+.signup {
+    color: white;
+    font-size: 20px;
+}
+.youtube {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.story {
+    width: 50%;
+    height: 70px;
+    background-color: rgba(255,255,255,0.4);
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    margin-top: 50px;
+}
+.story a {
+    font-size: 30px;
+    color: #2092a8;
+    text-decoration: none;
+}
+.pics {
+    display: flex;
+    flex-direction: row;
+}
+.pics img {
+    width: 30px;
+    height: 30px;
+}
+.likethis {
+    display: flex;
+    flex-direction: row;
+}
+.fa-facebook {
+    width: 5px;
+    height: 5px;
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50px;
+    background: #3B5998;
+    color: white;
+}
+.face {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 40%;
+    margin-top: 50px;
+}

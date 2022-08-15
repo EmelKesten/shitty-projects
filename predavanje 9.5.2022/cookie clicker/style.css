@@ -1,0 +1,23 @@
+*{
+    background-color:burlywood ;
+    font-size:1.5rem;
+}
+button{
+    background-color: aliceblue;
+    width:10rem;
+}
+body{
+    display:flex;
+    justify-content: space-between;
+}
+.prvi{
+    display: flex;
+    flex-direction:column;
+    width: 20rem;
+}
+.drugi{
+    display: flex;
+    flex-direction:column;
+    width:20rem;
+    align-items:flex-end;
+}

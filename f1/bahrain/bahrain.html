@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Baharin</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../maincss/main.css" />
+  </head>
+  <body>
+    <div class="topnav" id="myTopnav">
+      <a href="/index.html">
+        <img class="f1" src="/slike/F1-logo.png" alt="Formula 1" />
+      </a>
+      <a href="/standings/standing.html">Standings</a>
+      <a href="/contructors/constructors.html">Constructors</a>
+      <a href="/schedule/schedule.html">Schedule</a>
+      <a href="/contact/contact.html">Contact us</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+    <div class="baharin">
+      <div class="head">
+        <p class="gulf"><b>FORMULA 1 GULF AIR BAHRAIN GRAND PRIX 2021</b></p>
+        <p class="bahrainint">Bahrain International Circuit</p>
+      </div>
+      <br /><br /><br /><br />
+      <div class="details">
+        <img class="track" src="/slike/baharintrack.png" alt="Baharin Track" />
+        <table>
+          <tr class="low">
+            <td><b>First Grand Prix</b></td>
+            <td><b>Number of Laps</b></td>
+          </tr>
+          <tr class="high">
+            <td>2004</td>
+            <td>57</td>
+          </tr>
+          <tr class="low">
+            <td><b>Circuit Length</b></td>
+            <td><b>Race Distance</b></td>
+          </tr>
+          <tr class="high">
+            <td>5.412km</td>
+            <td>308.238 km</td>
+          </tr>
+          <tr class="record">
+            <td class="low"><b>Lap Record</b></td>
+          </tr>
+          <tr class="record">
+            <td class="high">1:31.447</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <br /><br /><br />
+    <div id="footer">
+      <p><b>This is not the official Formula 1 website!!</b></p>
+      <p><b>Download the official F1 APP</b></p>
+      <div class="links">
+        <a
+          href="https://play.google.com/store/apps/details?id=com.softpauer.f1timingapp2014.basic&hl=en_GB"
+          target="blank"
+        >
+          <img
+            class="google"
+            src="/slike/google-play-badge.png"
+            alt="Download on Google Play"
+          />
+        </a>
+        <a
+          href="https://apps.apple.com/gb/app/official-f1-app/id835022598"
+          target="blank"
+        >
+          <img
+            class="apple"
+            src="/slike/Download_on_the_App_Store_logo.png"
+            alt="Download on the App Store"
+          />
+        </a>
+      </div>
+    </div>
+  </body>
+</html>

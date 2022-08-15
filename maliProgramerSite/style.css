@@ -1,0 +1,91 @@
+body{
+    font-family: Salsa, cursive !important;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    width: 100%;
+    height: 100px;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;	
+}
+.location, .phone{
+    display: flex;
+}
+#logo{
+    width: 200px;
+    padding: 5px;
+}
+.location img {
+    width: 30%;
+    height: 100%;
+    padding: 10px;
+}
+.phone img {
+    width: 40%;
+    height: 100%;
+    padding: 10px;
+}
+.middle-location-phone{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+@media screen and (max-width: 992px){
+    .location{
+        display: none;
+    }
+    .img-ppl{
+        display: none;
+    }
+}
+.welcome-page{
+    margin-top: 70px;
+}
+.big-font{
+    font-size: 60px;
+}
+.img-bg{
+    background-image: url("/assets/bg-maliProgramer.png");	
+    font-size: 3rem;
+    background-size: cover;
+    width: fit-content;
+}
+.txt{
+    padding: 15px;
+}
+.ch{
+    color: white;
+    font-size: 15px;
+    border-radius: 100%;
+    padding: 7px;	
+}
+.ch-pink{
+    background-color: #ff0080;
+
+}
+.ch-purple{
+    background-color: #800080;
+}
+.ch-blue{
+    background-color: #000080;
+}
+.cont p{
+    margin: 10px;
+}
+.cont2{
+    margin-top: 20px;
+}
+.cont2 button{
+    margin: 10px;
+}

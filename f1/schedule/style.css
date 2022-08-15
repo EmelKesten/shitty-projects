@@ -1,0 +1,47 @@
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(to right, #decba4, #3e5151);
+}
+table {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 5px 5px 5px 5px #999;
+}
+td {
+  text-align: center;
+}
+table,
+th,
+td {
+  padding: 10px;
+  border-collapse: collapse;
+}
+@media screen and (max-width: 744px) {
+  table, th, td {
+    font-size: 15px;
+  }
+}
+tr:nth-child(even) {
+  background-color: rgb(211, 207, 207);
+}
+th {
+  background-color: gray;
+  color: white;
+}
+.head {
+  margin-top: 100px;
+  color: #dfb86f;
+  text-align: center;
+}
+h1 {
+  color: #dfb86f;
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 72px;
+  margin: 0 0 24px;
+  text-align: center;
+  text-transform: uppercase;
+}

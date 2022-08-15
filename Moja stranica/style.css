@@ -1,0 +1,13 @@
+img {
+  width: 100px;
+  height: 100px;
+}
+p {
+  color: red;
+}
+#myHeader {
+  background-color: burlywood;
+  color: black;
+  padding: 40px;
+  text-align: center;
+}
