@@ -1,0 +1,111 @@
+.teacher-gallery{
+    background-color: #4032a8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.gallery-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 30%;
+}
+.gallery-bottom img{
+    margin: 10px;
+    width: 25%;
+}
+@media screen and (max-width: 765px){
+    .gallery-bottom{
+        width: 100%;
+        flex-direction: column;
+    }
+    .gallery-bottom img{
+        width: 90%;
+    }
+    .teacher-header{
+        width: 100%;
+        height: 100px;
+    }
+    .teachers{
+        flex-direction: column;
+    }
+    .teach{ 
+        width: 90% !important;
+    }
+}
+.teacher-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 100px;
+    margin: 40px;
+}
+.teacher-header p{
+    margin: 20px;
+    color: darksalmon;
+    font-size: 20px;
+}
+.teacher-header h2{
+    font-weight: 700;
+    color: #4032a8;
+    text-align: center;
+}
+.teachers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.teacher-gallery-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.teach{   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 100%;
+    margin: 20px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.teach1{
+    background-image: url(./assets/bg-sc-employee-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.teach2{
+    background-image: url(./assets/bg-sc-employee-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.teach3{
+    background-image: url(./assets/bg-sc-employee-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.teach4{
+    background-image: url(./assets/bg-sc-employee-4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.teach img{
+    margin: 20px;
+    width: 90%;
+}
+.teach p, .teach h2{
+    margin: 20px;
+}
